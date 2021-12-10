@@ -1,0 +1,18 @@
+{
+    "name": "code-lives/unions",
+    "description": "微信关注公众号 设置菜单 发送模版消息",
+    "type": "library",
+    "license": "MIT",
+    "version":"3.0",
+    "authors": [
+        {
+            "name": "lijie",
+            "email": "18734351007@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload":{
+        "files": ["function.php"],
+   	"psr-4":{"unions\\":"src"}
+    }
+}
