@@ -22,8 +22,9 @@ class Log
 
     private function path(): string
     {
+        
         $path = __DIR__ . '/../logs/' . date('Y-m-d/');
-
+        return $path;
         !is_dir($path) && mkdir($path, 0777, true);
 
         return $path;
@@ -71,7 +72,7 @@ class Log
     }
 
     private function write(string $content, string $type, string $file = '')
-    {
+    {   return;
         if (empty($content)) {
             return;
         }
